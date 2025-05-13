@@ -1,5 +1,5 @@
 # Digital Store
-Aplicação reactjs de um site ecommerce para praticar os conceitos do react hooks e metade da nota do curso de desenvolvimento web fullstack
+Aplicação reactjs de um site ecommerce para praticar os conceitos do react hooks e metade da nota do curso de desenvolvimento web fullstack.
 
 **Confira o resultado:**
 https://projeto-digital-store-8dg6.onrender.com/

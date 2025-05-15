@@ -1,15 +1,15 @@
 import {
+    Section,
     Subtitle,
-    Title,
-    Welcome
+    Title
 } from "./style";
 
 const Home = () => {
     return ( 
-        <Welcome className="beggin">
-            <Title>Hello world!</Title>
+        <Section className="beggin">
+            <Title>Queima de estoque Nike</Title>
             <Subtitle>A project react with typescript.</Subtitle>
-        </Welcome>
+        </Section>
      );
 }
  

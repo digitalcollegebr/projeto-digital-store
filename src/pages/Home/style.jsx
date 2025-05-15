@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { actionsColors, grayScaleColors } from "../../styles/colors/cores";
 
-export const Welcome = styled.div`
+export const Section = styled.div`
     &.beggin {
         display: flex;
         flex-direction: column;

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  .active-thumb {
+    border: 2px solid #000;
+  }
+
+/* custom.css */
+.swiper-button-next, .swiper-button-prev {
+    @apply text-primary; /* Aplica a cor vermelha aos botões */
+  }
+  
+  .swiper-button-next:hover, .swiper-button-prev:hover {
+    @apply text-blue-500; /* Aplica a cor verde aos botões ao passar o mouse */
+  }
+  
+  .swiper-button-next::after, .swiper-button-prev::after {
+    @apply text-2xl; /* Ajusta o tamanho dos ícones */
+  }
+
+  .svg:hover {
+    filter: invert(42%) sepia(100%) saturate(660%) hue-rotate(300deg) brightness(95%) contrast(89%);
+  }
+
+  

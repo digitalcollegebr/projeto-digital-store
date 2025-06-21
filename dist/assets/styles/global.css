@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter var';
+    src: url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+.bg-primary-force {
+  background-color: #C92071 !important;
+  color: #fff !important;
+}
+
+.text-primary-force {
+  color: #C92071;
+}
+.text-secundary{
+  color: #474747;
+}
+.text-secundary-force {
+  color: #474747;
+}
+.text-secundary-force:hover {
+  color: #C92071;
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
+  font-weight: inherit; /* Permite que o Tailwind controle o peso */
+}
+
+.p-input-icon {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}

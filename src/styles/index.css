@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #C92071;
+  --color-secondary: #B5B6F2;
+  --color-tertiary: #991956;
+  --color-error: #EE4266;
+  --color-success: #52CA76;
+  --color-warning: #F6AA1C;
+  
+  --color-dark-gray: #1F1F1F;
+  --color-dark-gray-2: #474747;
+  --color-dark-gray-3: #666666;
+  --color-light-gray: #8F8F8F;
+  --color-light-gray-2: #CCCCCC;
+  --color-light-gray-3: #F5F5F5;
+  --color-white: #FFFFFF;
+
+}
+
+*{
+    /*margin: 0;
+    padding: 0;*/
+    font-family: 'inter var';
+    src: url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+/*.bg-primary-force {
+  background-color: #C92071 !important;
+  color: #fff !important;
+}
+
+.text-primary-force {
+  color: #C92071;
+}
+.text-secundary{
+  color: #474747;
+}
+.text-secundary-force {
+  color: #474747;
+}
+.text-secundary-force:hover {
+  color: #C92071;
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
+  font-weight: inherit;
+}
+
+.p-input-icon {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+

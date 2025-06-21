@@ -1,0 +1,11 @@
+.p-galleria .p-galleria-indicators .p-galleria-indicator button {
+  background-color: #ccc; 
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.p-galleria .p-galleria-indicators .p-galleria-indicator.p-highlight button {
+  background-color: #e91e63; 
+}

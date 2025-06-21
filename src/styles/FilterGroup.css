@@ -1,0 +1,100 @@
+/* src/components/FilterPanel/FilterPanel.css */
+.filter-panel {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+  margin-bottom: 1.5rem;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 0.75rem 0;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  transition: background-color 0.2s;
+  border-radius: 0.25rem;
+}
+
+.filter-option:hover {
+  background-color: #f9fafb;
+}
+
+.filter-checkbox,
+.filter-radio {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  accent-color: #2563eb;
+}
+
+.filter-label {
+  font-size: 0.875rem;
+  color: #374151;
+  user-select: none;
+}
+
+/* Checkbox personalizado */
+.filter-checkbox {
+  border-radius: 0.25rem;
+}
+
+/* Radio personalizado */
+.filter-radio {
+  border-radius: 50%;
+}
+
+/* Focus states */
+.filter-checkbox:focus,
+.filter-radio:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Estados checked */
+.filter-checkbox:checked,
+.filter-radio:checked {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .filter-panel {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-panel {
+    padding: 1rem;
+  }
+  
+  .filter-title {
+    font-size: 0.9rem;
+  }
+  
+  .filter-label {
+    font-size: 0.8rem;
+  }
+}

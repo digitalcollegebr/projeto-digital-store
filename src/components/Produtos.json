@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "Categoria": "Tênis",
+    "imagem": "/assets/Img/produc-image-1.png",
+    "Nome": "K-Swiss V8 - Masculino",
+    "Descricao": "O K-Swiss V8 combina tradição e inovação, oferecendo suporte ideal para caminhadas longas e um visual esportivo moderno.",
+    "Marca": "K-Swiss",
+    "Preco": 249.9,
+    "PrecoDesconto": 199.9,
+    "Visualizacaos": 645
+  },
+  {
+    "id": 2,
+    "Categoria": "Tênis",
+    "imagem": "/assets/Img/produc-image-2.png",
+    "Nome": "Adidas Ultraboost - Masculino",
+    "Descricao": "O Adidas Ultraboost proporciona máxima absorção de impacto, perfeito para corridas e treinos intensos com muito conforto.",
+    "Marca": "Adidas",
+    "Preco": 899.9,
+    "PrecoDesconto": 759.9,
+    "Visualizacaos": 1200
+  },
+  {
+    "id": 3,
+    "Categoria": "Tênis",
+    "imagem": "/assets/Img/produc-image-3.png",
+    "Nome": "Nike Air - Masculino",
+    "Descricao": "O Nike Air é referência em leveza e amortecimento, ideal para quem busca performance e estilo em qualquer ocasião.",
+    "Marca": "Nike",
+    "Preco": 799.0,
+    "PrecoDesconto": 699.0,
+    "Visualizacaos": 980
+  },
+  {
+    "id": 4,
+    "Categoria": "Tênis",
+    "imagem": "/assets/Img/produc-image-4.png",
+    "Nome": "Vans Old Skool - Masculino",
+    "Descricao": "O Vans Old Skool traz o clássico design skatista aliado à resistência, perfeito para o dia a dia urbano.",
+    "Marca": "Vans",
+    "Preco": 349.9,
+    "PrecoDesconto": 279.9,
+    "Visualizacaos": 500
+  },
+  {
+    "id": 5,
+    "Categoria": "Tênis",
+    "imagem": "/assets/Img/produc-image-5.png",
+    "Nome": "All stars - Feminino",
+    "Descricao": "O All Stars feminino é versátil e atemporal, combinando com qualquer look e proporcionando conforto em todos os momentos.",
+    "Marca": "All stars",
+    "Preco": 599.9,
+    "PrecoDesconto": 499.9,
+    "Visualizacaos": 768
+  },
+  {
+    "id": 6,
+    "Categoria": "Tênis",
+    "imagem": "/assets/Img/produc-image-2.png",
+    "Nome": "Supreme V8 - Masculino",
+    "Descricao": "O Supreme V8 destaca-se pelo design robusto e acabamento premium, ideal para quem busca exclusividade.",
+    "Marca": "Supreme",
+    "Preco": 699.9,
+    "PrecoDesconto": 599.9,
+    "Visualizacaos": 850
+  },
+  {
+    "id": 7,
+    "imagem": "/assets/Img/produc-image-4.png",
+    "Categoria": "Tênis",
+    "Nome": "Lupo city - Masculino",
+    "Descricao": "O Lupo City é perfeito para o ambiente urbano, oferecendo conforto prolongado e estilo discreto para o dia a dia.",
+    "Marca": "Lupo",
+    "Preco": 349.9,
+    "PrecoDesconto": 299.9,
+    "Visualizacaos": 4335
+  },
+  {
+    "id": 8,
+    "imagem": "/assets/Img/produc-image-1.png",
+    "Categoria": "Tênis",
+    "Nome": "Mizumo Wave - Masculino",
+    "Descricao": "O Mizumo Wave traz tecnologia de amortecimento avançada, garantindo estabilidade e segurança em cada passo.",
+    "Marca": "Mizumo",
+    "Preco": 649.9,
+    "PrecoDesconto": 549.9,
+    "Visualizacaos": 6953
+  }
+]

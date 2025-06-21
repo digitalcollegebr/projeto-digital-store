@@ -1,0 +1,24 @@
+#Ofertas{
+    color: #F6AA1C;
+    font-weight: 700;
+    font-size: 16px;
+}
+#Estoque{
+    font-weight: 800;
+    font-size: 64px;
+}
+.p-carousel-indicators {
+  justify-content: center !important;
+  margin-top: 1.5rem;
+  gap: 0.5rem;
+}
+.p-carousel-indicator button {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: #d1d5db;
+  transition: background 0.2s;
+}
+.p-carousel-indicator.p-highlight button {
+  background: #c92071;
+}

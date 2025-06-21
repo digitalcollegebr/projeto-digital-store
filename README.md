@@ -614,4 +614,3 @@ Dentro do componente `<Section />` deve ser passado como filho o componente `<Pr
 ![layout-product-view-page](./doc/layout/product-view-page.png)
 </details>
 </details>
-

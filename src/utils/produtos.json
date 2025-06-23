@@ -1,0 +1,951 @@
+{
+    "products": [
+        {
+            "id": "38416711",
+            "title": "Nike revolution 6 next nature",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Nike",
+            "type": "Tênis",
+            "category": "Casual",
+            "gender": "Masculino",
+            "state": "new",
+            "price": 219.0,
+            "discount": 0,
+            "sizes": [39, 40, 41, 42, 43],
+            "colors": [
+                {
+                    "name": "Ciano / Preto",
+                    "code": "#6FEEFF"
+                },
+                {
+                    "name": "Vermelho / Branco",
+                    "code": "#FF6969"
+                },
+                {
+                    "name": "Preto / Branco",
+                    "code": "#5E5E5E"
+                },
+                {
+                    "name": "Roxo / Branco",
+                    "code": "#6D70B7"
+                }
+            ],
+            "rating": 4.7,
+            "reviews": 90,
+            "image": "/White-Sneakers.png"
+        },
+        {
+            "id": "38479628",
+            "title": "K-Swiss V8",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "K-Swiss",
+            "type": "Tênis",
+            "category": "Esporte e lazer",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 100.0,
+            "discount": 30,
+            "sizes": [34, 35, 36, 37, 38, 39, 40, 41],
+            "colors": [
+                {
+                    "name": "Verde / Branco",
+                    "code": "#102E39"
+                },
+                {
+                    "name": "Laranja / Branco",
+                    "code": "#E47009"
+                }
+            ],
+            "rating": 4.5,
+            "reviews": 30,
+            "image": "/K-Swiss-V8.png"
+        },
+        {
+            "id": "25479628",
+            "title": "Adidas Originals ASICS",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Adidas",
+            "type": "Tênis",
+            "category": "Corrida",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 210.0,
+            "discount": 15,
+            "sizes": [40, 41, 42, 43, 44],
+            "colors": [
+                {
+                    "name": "Azul / Branco",
+                    "code": "#51BDD3"
+                }
+            ],
+            "rating": 4.9,
+            "reviews": 150,
+            "image": "https://e7.pngegg.com/pngimages/606/509/png-clipart-sneakers-adidas-originals-shoe-asics-tenis-shoes-blue-white.png"
+        },
+        {
+            "id": "25473315",
+            "title": "Adidas Hiking boot",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Adidas",
+            "type": "Tênis",
+            "category": "Corrida",
+            "gender": "Unisex",
+            "state": "used",
+            "price": 32.9,
+            "discount": 0,
+            "sizes": [35, 36, 39, 40, 41],
+            "colors": [
+                {
+                    "name": "Preto",
+                    "code": "#333333"
+                }
+            ],
+            "rating": 3.4,
+            "reviews": 10,
+            "image": "https://e7.pngegg.com/pngimages/922/921/png-clipart-sneakers-amazon-com-adidas-shoe-hiking-boot-tenis-shoes-leather-outdoor-shoe.png"
+        },
+        {
+            "id": "38416821",
+            "title": "Nike Air Max",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Nike",
+            "type": "Tênis",
+            "category": "Corrida",
+            "gender": "Unisex",
+            "state": "used",
+            "price": 45.0,
+            "discount": 10,
+            "sizes": [35, 36, 38, 40, 42],
+            "colors": [
+                {
+                    "name": "Preto / Branco",
+                    "code": "#5E5E5E"
+                }
+            ],
+            "rating": 4.1,
+            "reviews": 55,
+            "image": "https://e7.pngegg.com/pngimages/30/966/png-clipart-nike-air-max-sneakers-nike-free-shoe-tenis-shoes-white-outdoor-shoe.png"
+        },
+        {
+            "id": "3841532",
+            "title": "Nike Air Jordan",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Nike",
+            "type": "Tênis",
+            "category": "Casual",
+            "gender": "Masculino",
+            "state": "new",
+            "price": 350.0,
+            "discount": 20,
+            "sizes": [40, 41, 42, 43, 44],
+            "colors": [
+                {
+                    "name": "Amarelo / Preto",
+                    "code": "#FED503"
+                }
+            ],
+            "rating": 5.0,
+            "reviews": 2000,
+            "image": "https://e7.pngegg.com/pngimages/32/780/png-clipart-sneakers-air-jordan-shoe-nike-air-max-nike-white-orange.png"
+        },
+        {
+            "id": "3841041",
+            "title": "Nike Off White",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Nike",
+            "type": "Tênis",
+            "category": "Casual",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 400.0,
+            "discount": 25,
+            "sizes": [35, 36, 38, 40, 41],
+            "colors": [
+                {
+                    "name": "Preto / Branco",
+                    "code": "#FFFFFF"
+                }
+            ],
+            "rating": 4.9,
+            "reviews": 5500,
+            "image": "https://www.pngitem.com/pimgs/m/369-3694401_tenis-nike-off-white-hd-png-download.png"
+        },
+        {
+            "id": "3398001",
+            "title": "Chuck Taylor All-Stars Converse",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Chuck Taylor",
+            "type": "Tênis",
+            "category": "Casual",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 160.0,
+            "discount": 0,
+            "sizes": [35, 36, 38, 40, 41],
+            "colors": [
+                {
+                    "name": "Marinho / Branco",
+                    "code": "#3E495F"
+                }
+            ],
+            "rating": 4.9,
+            "reviews": 1700,
+            "image": "https://e7.pngegg.com/pngimages/31/909/png-clipart-chuck-taylor-all-stars-converse-high-top-sneakers-shoe-tenis-shoes-white-fashion.png"
+        },
+        {
+            "id": "2282001",
+            "title": "Sportswear Skate",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Sportswear",
+            "type": "Tênis",
+            "category": "Esporte e lazer",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 90.0,
+            "discount": 15,
+            "sizes": [35, 36, 38, 40, 41],
+            "colors": [
+                {
+                    "name": "Vermelho / Branco",
+                    "code": "#CA1B33"
+                }
+            ],
+            "rating": 4.2,
+            "reviews": 1800,
+            "image": "https://e7.pngegg.com/pngimages/786/489/png-clipart-sneakers-skate-shoe-sportswear-red-tenis-white-child.png"
+        },
+        {
+            "id": "1173701",
+            "title": "Lace Up Lightweight",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Lace Up",
+            "type": "Tênis",
+            "category": "Esporte e lazer",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 220.0,
+            "discount": 25,
+            "sizes": [35, 36, 38, 40, 41],
+            "colors": [
+                {
+                    "name": "Vermelho / Preto",
+                    "code": "#CA1B33"
+                }
+            ],
+            "rating": 4.5,
+            "reviews": 1900,
+            "image": "https://www.pngitem.com/pimgs/m/351-3512187_new-men-casual-shoes-lace-up-men-shoes.png"
+        },
+        {
+            "id": "1177001",
+            "title": "Con Walking 224",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Con Walking",
+            "type": "Tênis",
+            "category": "Casual",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 120.0,
+            "discount": 15,
+            "sizes": [35, 36, 38, 40, 41],
+            "colors": [
+                {
+                    "name": "Rosa / Branco",
+                    "code": "#E3C9DA"
+                }
+            ],
+            "rating": 3.5,
+            "reviews": 19,
+            "image": "https://www.pngitem.com/pimgs/m/237-2372586_13-224-tenis-casual-con-brillos-walking-shoe.png"
+        },
+        {
+            "id": "7777001",
+            "title": "Puma Rs X Reinvention Whisper",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Puma",
+            "type": "Tênis",
+            "category": "Corrida",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 135.0,
+            "discount": 10,
+            "sizes": [35, 36, 38, 40, 41],
+            "colors": [
+                {
+                    "name": "Vermelho / Branco",
+                    "code": "#CA1B33"
+                }
+            ],
+            "rating": 4.3,
+            "reviews": 1899,
+            "image": "https://www.pngitem.com/pimgs/m/427-4272288_puma-rs-x-reinvention-whisper-white-red-blast.png"
+        },
+        {
+            "id": "8831001",
+            "title": "Headphone Wireless Bluetooth 5.1 microsd",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Genérico",
+            "type": "Headphone",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 70.0,
+            "discount": 0,
+            "sizes": [36],
+            "colors": [
+                {
+                    "name": "Azul / Branco",
+                    "code": "#6dc6f4"
+                }
+            ],
+            "rating": 3.7,
+            "reviews": 5,
+            "image": "https://www.pngitem.com/pimgs/m/8-81226_headphones-png-download-headphones-transparent-png.png"
+        },
+        {
+            "id": "8831002",
+            "title": "Headset Gamer Redragon Zeus H510",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Redragon",
+            "type": "Headset",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 300.0,
+            "discount": 30,
+            "sizes": [37, 42],
+            "colors": [
+                {
+                    "name": "Vermelho / Preto",
+                    "code": "#D2070A"
+                }
+            ],
+            "rating": 4.9,
+            "reviews": 5000,
+            "image": "https://www.pngitem.com/pimgs/m/178-1788543_redragon-h510-headphone-headset-gamer-redragon-zeus-hd.png"
+        },
+        {
+            "id": "8831003",
+            "title": "Headset Asus Rog Strix Wireless Gaming",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Asus",
+            "type": "Headset",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 450.0,
+            "discount": 20,
+            "sizes": [36, 42],
+            "colors": [
+                {
+                    "name": "Laranja / Preto",
+                    "code": "#FF7425"
+                }
+            ],
+            "rating": 4.9,
+            "reviews": 7500,
+            "image": "https://www.pngitem.com/pimgs/m/178-1788723_asus-rog-strix-wireless-gaming-headset-hd-png.png"
+        },
+        {
+            "id": "8831004",
+            "title": "Headset Sony Joway wireless sport",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Sony",
+            "type": "Headset",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 150.0,
+            "discount": 0,
+            "sizes": [36, 42],
+            "colors": [
+                {
+                    "name": "Branco",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Preto",
+                    "code": "#333333"
+                }
+            ],
+            "rating": 4.6,
+            "reviews": 3000,
+            "image": "https://e7.pngegg.com/pngimages/183/693/png-clipart-headphones-headset-bluetooth-handsfree-ecouteur-sony-wireless-headset-sport-bluetooth-mobile-phones.png"
+        },
+        {
+            "id": "8831005",
+            "title": "Headphone Wireless Bluetooth 5.1 microsd",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Genérico",
+            "type": "Headphone",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 75.0,
+            "discount": 0,
+            "sizes": [36],
+            "colors": [
+                {
+                    "name": "Vermelho / Preto",
+                    "code": "#FF4521"
+                }
+            ],
+            "rating": 3.8,
+            "reviews": 17,
+            "image": "https://e7.pngegg.com/pngimages/68/524/png-clipart-headphones-headset-wireless-bluetooth-red-wireless-headphones-electronics-computer.png"
+        },
+        {
+            "id": "8831006",
+            "title": "Headset Ideus Handsfree Ear",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Ideus",
+            "type": "Headphone",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 45.0,
+            "discount": 0,
+            "sizes": [100, 120],
+            "colors": [
+                {
+                    "name": "Amarelo / Preto",
+                    "code": "#FCE840"
+                }
+            ],
+            "rating": 4.0,
+            "reviews": 2987,
+            "image": "https://e7.pngegg.com/pngimages/226/171/png-clipart-headphones-headset-handsfree-ear-headphones-blue-electronics.png"
+        },
+        {
+            "id": "8831007",
+            "title": "HTC Vive Oculus VR Headset com controles",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "HTC",
+            "type": "Oculos VR",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 5500.0,
+            "discount": 15,
+            "sizes": [36, 42],
+            "colors": [
+                {
+                    "name": "Preto",
+                    "code": "#333333"
+                }
+            ],
+            "rating": 4.9,
+            "reviews": 9800,
+            "image": "https://e7.pngegg.com/pngimages/257/273/png-clipart-black-vr-headset-with-controllers-y-oculus-rift-virtual-reality-headset-htc-vive-oculus-vr-vr-headset-electronics-microsoft-store.png"
+        },
+        {
+            "id": "8831008",
+            "title": "Samsung Gear VR Headset",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Samsung",
+            "type": "Oculos VR",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 4500.0,
+            "discount": 10,
+            "sizes": [36, 42],
+            "colors": [
+                {
+                    "name": "Preto",
+                    "code": "#333333"
+                }
+            ],
+            "rating": 4.9,
+            "reviews": 9800,
+            "image": "https://e7.pngegg.com/pngimages/480/558/png-clipart-iphone-7-rocket-vr-virtual-reality-headset-samsung-gear-vr-vr-headset-glasses-mobile-phones.png"
+        },
+        {
+            "id": "8831009",
+            "title": "Rift VR Headset com controle",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Rift",
+            "type": "Oculos VR",
+            "category": "Utilitário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 3800.0,
+            "discount": 10,
+            "sizes": [36, 42],
+            "colors": [
+                {
+                    "name": "Branco",
+                    "code": "#FFFFFF"
+                }
+            ],
+            "rating": 4.7,
+            "reviews": 6500,
+            "image": "https://e7.pngegg.com/pngimages/162/294/png-clipart-oculus-rift-virtual-reality-headset-oculus-vr-oculus-virtual-reality-headset-electronics-mobile-phones.png"
+        },
+        {
+            "id": "9048001",
+            "title": "Short Bud Pink",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Bud",
+            "type": "Short",
+            "category": "Vestuário",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 39.9,
+            "discount": 5,
+            "sizes": [37, 38, 39, 40],
+            "colors": [
+                {
+                    "name": "Rosa nudge",
+                    "code": "#C16763"
+                }
+            ],
+            "rating": 4.1,
+            "reviews": 2500,
+            "image": "https://www.pngitem.com/pimgs/m/578-5788049_bud-pink-shorts-pink-shorts-png-transparent-png.png"
+        },
+        {
+            "id": "9048002",
+            "title": "Short Sweat Women Green",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Sweat Women",
+            "type": "Short",
+            "category": "Vestuário",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 38.0,
+            "discount": 4,
+            "sizes": [37, 38, 39, 40],
+            "colors": [
+                {
+                    "name": "Verde",
+                    "code": "#00A78D"
+                }
+            ],
+            "rating": 4.2,
+            "reviews": 2600,
+            "image": "https://www.pngitem.com/pimgs/m/283-2836786_green-sweat-shorts-women-hd-png-download.png"
+        },
+        {
+            "id": "9048003",
+            "title": "Short Nvizin Board",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Nvizin",
+            "type": "Short",
+            "category": "Vestuário",
+            "gender": "Masculino",
+            "state": "new",
+            "price": 44.5,
+            "discount": 8,
+            "sizes": [38, 39, 40, 41, 42],
+            "colors": [
+                {
+                    "name": "Vermelho / Branco",
+                    "code": "#DA4340"
+                }
+            ],
+            "rating": 4.1,
+            "reviews": 2200,
+            "image": "https://www.pngitem.com/pimgs/m/283-2836652_board-short-hd-png-download.png"
+        },
+        {
+            "id": "9048004",
+            "title": "Short Hibou Black",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Hibou",
+            "type": "Short",
+            "category": "Vestuário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 75.0,
+            "discount": 5,
+            "sizes": [37, 38, 39, 40],
+            "colors": [
+                {
+                    "name": "Preto",
+                    "code": "#333333"
+                }
+            ],
+            "rating": 4.6,
+            "reviews": 3100,
+            "image": "https://www.pngitem.com/pimgs/m/456-4567450_black-shorts-png-transparent-transparent-background-shorts-outline.png"
+        },
+        {
+            "id": "9048005",
+            "title": "Blusa Clothing Sleeve Musgle",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Clothing",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 105.0,
+            "discount": 0,
+            "sizes": [37, 38, 39, 40],
+            "colors": [
+                {
+                    "name": "Verde Musgo",
+                    "code": "#4D4B38"
+                }
+            ],
+            "rating": 4.3,
+            "reviews": 2250,
+            "image": "https://e7.pngegg.com/pngimages/791/462/png-clipart-blouse-t-shirt-clothing-sleeve-t-shirt-fashion-woman.png"
+        },
+        {
+            "id": "9048006",
+            "title": "Blusa Clothing Sleeve Outerwear",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Clothing",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 147.5,
+            "discount": 0,
+            "sizes": [37, 38, 39, 40],
+            "colors": [
+                {
+                    "name": "Marinho / Vermelho",
+                    "code": "#313654"
+                }
+            ],
+            "rating": 4.6,
+            "reviews": 2750,
+            "image": "https://e7.pngegg.com/pngimages/682/42/png-clipart-shirt-clothing-sleeve-outerwear-blouse-stripes-photography-fashion.png"
+        },
+        {
+            "id": "9048007",
+            "title": "Blusa Ruffle Neckline Sleeve Red",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Ruffle Neckline",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Feminino",
+            "state": "new",
+            "price": 170.9,
+            "discount": 0,
+            "sizes": [37, 38, 39, 40],
+            "colors": [
+                {
+                    "name": "Vermelho",
+                    "code": "#C81015"
+                }
+            ],
+            "rating": 4.6,
+            "reviews": 2750,
+            "image": "https://e7.pngegg.com/pngimages/729/212/png-clipart-sleeve-blouse-ruffle-neckline-shirt-shirt-fashion-woman.png"
+        },
+        {
+            "id": "9048008",
+            "title": "Camiseta Crew-Neck White",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Clothing",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Masculino",
+            "state": "new",
+            "price": 35.9,
+            "discount": 0,
+            "sizes": [38, 39, 40, 41],
+            "colors": [
+                {
+                    "name": "branco",
+                    "code": "#FFFFFF"
+                }
+            ],
+            "rating": 4.4,
+            "reviews": 2540,
+            "image": "https://e7.pngegg.com/pngimages/29/367/png-clipart-white-crew-neck-t-shirt-t-shirt-leia-organa-hoodie-clothing-t-shirts-tshirt-white.png"
+        },
+        {
+            "id": "9048009",
+            "title": "Camiseta Clothing Sleeve Black",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Clothing",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Masculino",
+            "state": "new",
+            "price": 37.9,
+            "discount": 0,
+            "sizes": [38, 39, 40, 41],
+            "colors": [
+                {
+                    "name": "Preto",
+                    "code": "#333333"
+                }
+            ],
+            "rating": 4.6,
+            "reviews": 2650,
+            "image": "https://e7.pngegg.com/pngimages/826/253/png-clipart-t-shirt-polo-shirt-clothing-sleeve-black-t-shirt-black-crew-neck-t-shirt-tshirt-fashion.png"
+        },
+        {
+            "id": "9048010",
+            "title": "Camiseta Gildan Activewear Navy",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Gildan",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Masculino",
+            "state": "new",
+            "price": 34.5,
+            "discount": 0,
+            "sizes": [38, 39, 40, 41],
+            "colors": [
+                {
+                    "name": "Azul",
+                    "code": "#23589C"
+                }
+            ],
+            "rating": 4.4,
+            "reviews": 2572,
+            "image": "https://e7.pngegg.com/pngimages/795/603/png-clipart-t-shirt-gildan-activewear-navy-blue-t-shirt-tshirt-blue.png"
+        },
+        {
+            "id": "9048011",
+            "title": "Blusão Moletom American Strong Red",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "American Strong",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 275.0,
+            "discount": 10,
+            "sizes": [37, 38, 39, 40, 41],
+            "colors": [
+                {
+                    "name": "Vermelho",
+                    "code": "#CD2529"
+                }
+            ],
+            "rating": 4.6,
+            "reviews": 2985,
+            "image": "https://e7.pngegg.com/pngimages/362/840/png-clipart-hoodie-t-shirt-red-bluza-t-shirt-tshirt-color.png"
+        },
+        {
+            "id": "9048012",
+            "title": "Blusão Moletom Tracksuit Grey",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "brand": "Tracksuit",
+            "type": "Camiseta",
+            "category": "Vestuário",
+            "gender": "Unisex",
+            "state": "new",
+            "price": 295.6,
+            "discount": 15,
+            "sizes": [37, 38, 39, 40, 41],
+            "colors": [
+                {
+                    "name": "Cinza",
+                    "code": "#979797"
+                }
+            ],
+            "rating": 4.7,
+            "reviews": 2999,
+            "image": "https://e7.pngegg.com/pngimages/500/525/png-clipart-hoodie-t-shirt-tracksuit-bluza-t-shirt-zipper-grey.png"
+        }
+    ],
+    "filters": [
+        {
+            "brand": [
+                {
+                    "id": "2025001",
+                    "brand": "Adidas"
+                },
+                {
+                    "id": "2025002",
+                    "brand": "American Strong"
+                },
+                {
+                    "id": "2025003",
+                    "brand": "Asus"
+                },
+                {
+                    "id": "2025004",
+                    "brand": "Bud"
+                },
+                {
+                    "id": "2025005",
+                    "brand": "Chuck Taylor"
+                },
+                {
+                    "id": "2025006",
+                    "brand": "Clothing"
+                },
+                {
+                    "id": "2025007",
+                    "brand": "Con Walking"
+                },
+                {
+                    "id": "2025009",
+                    "brand": "Genérico"
+                },
+                {
+                    "id": "2025010",
+                    "brand": "Gildan"
+                },
+                {
+                    "id": "2025011",
+                    "brand": "Hibou"
+                },
+                {
+                    "id": "2025012",
+                    "brand": "HTC"
+                },
+                {
+                    "id": "2025013",
+                    "brand": "Ideus"
+                },
+                {
+                    "id": "2025014",
+                    "brand": "K-Swiss"
+                },
+                {
+                    "id": "2025015",
+                    "brand": "Lace Up"
+                },
+                {
+                    "id": "2025016",
+                    "brand": "Nike"
+                },
+                {
+                    "id": "2025017",
+                    "brand": "Nvizin"
+                },
+                {
+                    "id": "2025018",
+                    "brand": "Puma"
+                },
+                {
+                    "id": "2025019",
+                    "brand": "Redragon"
+                },
+                {
+                    "id": "2025020",
+                    "brand": "Rift"
+                },
+                {
+                    "id": "2025021",
+                    "brand": "Ruffle Neckline"
+                },
+                {
+                    "id": "2025022",
+                    "brand": "Samsung"
+                },
+                {
+                    "id": "2025023",
+                    "brand": "Sony"
+                },
+                {
+                    "id": "2025024",
+                    "brand": "Sportswear"
+                },
+                {
+                    "id": "2025025",
+                    "brand": "Sweat Women"
+                },
+                {
+                    "id": "2025026",
+                    "brand": "Tracksuit"
+                }
+            ],
+            "category": [
+                {
+                    "id": 1,
+                    "category": "Esporte e lazer"
+                }, 
+                {
+                    "id": 2,
+                    "category": "Casual"
+                }, 
+                {
+                    "id": 3,
+                    "category": "Utilitário"
+                }, 
+                {
+                    "id": 4,
+                    "category": "Corrida"
+                },
+                {
+                    "id": 5,
+                    "category": "Vestuário"
+                }
+            ],
+            "gender": [
+                {"id": 1, "gender": "Masculino"},
+                {"id": 2, "gender": "Feminino"},
+                {"id": 3, "gender": "Unisex"}
+            ],
+            "state": [
+                {"id": 1, "state": "new"},
+                {"id": 2, "state": "used"}
+            ],
+            "type": [
+                {"id": 1, "type": "Camiseta"},
+                {"id": 2, "type": "Headphone"},
+                {"id": 3, "type": "Headset"},
+                {"id": 4, "type": "Oculos VR"},
+                {"id": 5, "type": "Short"},
+                {"id": 6, "type": "Tênis"}
+            ]
+        }
+    ],
+    "promotions": [
+        {
+            "id": "20250001",
+            "impact": "Melhores ofertas personalizadas",
+            "title": "Queima de stoque Nike 🔥",
+            "subtitle": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "/White-Sneakers.png",
+            "alt": "Produto destaque",
+            "textBtn": "Ver Ofertas"
+        },
+        {
+            "id": "20250002",
+            "impact": "Ofertas com descontos",
+            "title": "K-Swiss no precinho 🫶",
+            "subtitle": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "/K-Swiss-V8.png",
+            "alt": "Produto destaque",
+            "textBtn": "Ver Ofertas"
+        },
+        {
+            "id": "20250003",
+            "impact": "Melhores ofertas personalizadas",
+            "title": "Queima de stoque Nike 🔥",
+            "subtitle": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "/White-Sneakers.png",
+            "alt": "Produto destaque",
+            "textBtn": "Ver Ofertas"
+        },
+        {
+            "id": "20250004",
+            "impact": "Ofertas com descontos",
+            "title": "K-Swiss no precinho 🫶",
+            "subtitle": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "/K-Swiss-V8.png",
+            "alt": "Produto destaque",
+            "textBtn": "Ver Ofertas"
+        },
+        {
+            "id": "20250005",
+            "impacto": "Melhores ofertas personalizadas",
+            "title": "Queima de stoque Nike 🔥",
+            "subtitle": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "/White-Sneakers.png",
+            "alt": "Produto destaque",
+            "textBtn": "Ver Ofertas"
+        },
+        {
+            "id": "20250006",
+            "impact": "Ofertas com descontos",
+            "title": "K-Swiss no precinho 🫶",
+            "subtitle": "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "/K-Swiss-V8.png",
+            "alt": "Produto destaque",
+            "textBtn": "Ver Ofertas"
+        }
+    ]
+}

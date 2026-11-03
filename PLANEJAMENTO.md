@@ -12,8 +12,8 @@
 - CSS para estilização das páginas.
 
 ### Quais são as cinco primeiras tarefas que precisam ser realizadas para começar o desenvolvimento?
-1. Criação do repósitorio no GitHub e preparação da máquina.
-2. Instalação das ferramentas e depedências.
-3. Crição das páginas HomePage, ProductListingPage e ProductViewPage e estilização da página.
+1. Criação do repositório no GitHub e preparação da máquina.
+2. Instalação das ferramentas e dependências.
+3. Criação das páginas HomePage, ProductListingPage e ProductViewPage e estilização da página.
 4. Criação dos componentes Header, Section e Footer.
 5. Revisão da aplicação anterior ao deploy.

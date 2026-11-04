@@ -1,4 +1,7 @@
-function SobreProjeto({titulo="Titulo não informado.", descricao="Descrição não informada."}) {
+function SobreProjeto({
+    titulo="Titulo não informado.", 
+    descricao="Descrição não informada."
+}) {
     return(
         <section>
             <h2>{titulo}</h2>

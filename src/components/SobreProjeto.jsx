@@ -1,8 +1,8 @@
-function SobreProjeto() {
+function SobreProjeto({titulo="Titulo não informado.", descricao="Descrição não informada."}) {
     return(
         <section>
-            <h2>Sobre o projeto</h2>
-            <p>Projeto desenvolvido durante o curso de desenvolvimento fullstack do Geração Tech 4.0</p>
+            <h2>{titulo}</h2>
+            <p>{descricao}</p>
         </section>
     )
 }

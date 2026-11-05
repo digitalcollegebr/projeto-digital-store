@@ -1,0 +1,40 @@
+.containerTitle{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+.section-title{
+    font-size: 24px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.section-title-column-1{
+    grid-column: 1;
+    text-align: left;
+}
+
+.section-title-column-2{
+    grid-column: 2;
+    justify-self: center;
+}
+
+.link-title{
+    font-size: 18px;
+    color: #C92071;
+    grid-column: 3;
+    justify-self: end;
+}
+
+@media (max-width: 480px) {
+    .containerTitle{
+        grid-template-columns: 1fr;
+    }
+    .section-title-column-2{
+        grid-column: 1;
+    }
+    .link-title{
+        grid-column: 1;
+    }
+}

@@ -1,4 +1,13 @@
-.image-card{
-    width: 100%;
-    max-width: 292px;
-}
+.product-card{min-width:0}
+.product-card__link{display:block;color:inherit;text-decoration:none}
+.product-card__image-box{position:relative;display:grid;place-items:center;width:100%;aspect-ratio:292/321;background:#fff;border-radius:5px;overflow:hidden;transition:box-shadow .2s,transform .2s}
+.product-card__link:hover .product-card__image-box{box-shadow:0 10px 28px rgba(31,31,31,.10);transform:translateY(-2px)}
+.product-card__image{width:100%;height:100%;max-width:292px;max-height:321px;object-fit:contain;display:block}
+.discount-pill{position:absolute;left:12px;top:12px;background:#E7FF86;color:#474747;font-size:12px;font-weight:700;border-radius:100px;padding:7px 12px;z-index:1}
+.product-card__info{padding-top:14px}
+.product-card__category{display:block;color:#8F8F8F;font-size:12px;margin-bottom:5px}
+.product-card__name{font-size:18px;line-height:1.4;color:#474747;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0 0 6px}
+.product-card__prices{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.old-price{font-size:20px;color:#8F8F8F;font-weight:400}
+.current-price{font-size:24px;color:#1F1F1F;font-weight:700}
+@media(max-width:600px){.product-card__info{padding-top:10px}.product-card__name{font-size:14px}.old-price{font-size:15px}.current-price{font-size:18px}.discount-pill{font-size:10px;padding:5px 8px}}

@@ -1,33 +1,22 @@
-import Section from "./components/Section.jsx"
-import ProductCard from "./components/ProductCard.jsx"
+import { Navigate, Route, Routes } from 'react-router-dom'
+import Layout from './pages/Layout.jsx'
+import HomePage from './pages/HomePage.jsx'
+import ProductListingPage from './pages/ProductListingPage.jsx'
+import ProductViewPage from './pages/ProductViewPage.jsx'
+import { CategoriesPage, OrdersPage, AuthPage } from './pages/ExtraPage.jsx'
 
-function App() {
-  return (
-    <main>
-      <h1>Digital Store</h1>
-      <p>Sejam bem-vindos à loja Digital Store</p>
-
-      <Section
-        title="Produtos em alta"
-        titleAlign="center"
-        link={{text: "Ver todos", href: "/"}}
-      >
-          <ProductCard
-            image="product-thumb-1.jpeg"
-            name="Tênis esportivo"
-            price={199.99}
-            priceDiscount={149.99}
-          />
-
-          <ProductCard
-            image="product-thumb-1.jpeg"
-            name="Tênis esportivo"
-            price={199.99}
-          />
-      </Section>
-
-    </main>
-  )
+export default function App() {
+  return <Layout>
+    <Routes>
+      <Route path="/" element={<HomePage/>} />
+      <Route path="/products" element={<ProductListingPage/>} />
+      <Route path="/produtos" element={<ProductListingPage/>} />
+      <Route path="/product/:id" element={<ProductViewPage/>} />
+      <Route path="/categorias" element={<CategoriesPage/>} />
+      <Route path="/meus-pedidos" element={<OrdersPage/>} />
+      <Route path="/entrar" element={<AuthPage mode="login"/>} />
+      <Route path="/cadastro" element={<AuthPage mode="register"/>} />
+      <Route path="*" element={<Navigate to="/" replace/>}/>
+    </Routes>
+  </Layout>
 }
-
-export default App

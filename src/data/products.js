@@ -1,0 +1,18 @@
+// Dados demonstrativos locais: permitem finalizar o front-end sem uma API.
+// Troque este array por dados de uma API no futuro, sem reescrever os cards.
+export const products = [
+  { id: 1, name: 'K-Swiss V8 - Masculino', brand: 'K-Swiss', category: 'Casual', gender: 'Masculino', image: '/product-thumb-1.jpeg', price: 200, priceDiscount: 100, description: 'Tênis versátil para compor produções casuais, com conforto e estilo para o dia a dia.', reference: 'KS-V8-001', stars: 4.8, rating: 96 },
+  { id: 2, name: 'Nike Revolution - Masculino', brand: 'Nike', category: 'Corrida', gender: 'Masculino', image: '/product-thumb-2.jpeg', price: 299.9, priceDiscount: 219.9, description: 'Leveza, estabilidade e conforto para acompanhar sua rotina de treinos.', reference: 'NK-REV-002', stars: 4.7, rating: 85 },
+  { id: 3, name: 'Adidas Daily - Feminino', brand: 'Adidas', category: 'Casual', gender: 'Feminino', image: '/product-thumb-3.jpeg', price: 249.9, description: 'Visual urbano, design clean e praticidade para todos os momentos.', reference: 'AD-DLY-003', stars: 4.5, rating: 64 },
+  { id: 4, name: 'Puma Smash - Unissex', brand: 'Puma', category: 'Casual', gender: 'Unissex', image: '/product-thumb-4.jpeg', price: 329.9, priceDiscount: 279.9, description: 'Um clássico que combina com diferentes estilos e ocasiões.', reference: 'PM-SMS-004', stars: 4.8, rating: 110 },
+  { id: 5, name: 'Olympikus Corre - Masculino', brand: 'Olympikus', category: 'Corrida', gender: 'Masculino', image: '/product-thumb-5.jpeg', price: 379.9, priceDiscount: 319.9, description: 'Tecnologia de amortecimento para acompanhar diferentes ritmos.', reference: 'OL-COR-005', stars: 4.9, rating: 175 },
+  { id: 6, name: 'Nike Court Vision - Feminino', brand: 'Nike', category: 'Basquete', gender: 'Feminino', image: '/product-thumb-1.jpeg', price: 399.9, description: 'Inspirado nas quadras, com identidade marcante para a cidade.', reference: 'NK-CRT-006', stars: 4.6, rating: 89 },
+  { id: 7, name: 'Adidas Run 70s - Unissex', brand: 'Adidas', category: 'Corrida', gender: 'Unissex', image: '/product-thumb-2.jpeg', price: 349.9, priceDiscount: 249.9, description: 'Um visual retrô com materiais confortáveis para o cotidiano.', reference: 'AD-RUN-007', stars: 4.7, rating: 125 },
+  { id: 8, name: 'Puma Flyer - Feminino', brand: 'Puma', category: 'Corrida', gender: 'Feminino', image: '/product-thumb-3.jpeg', price: 289.9, priceDiscount: 199.9, description: 'Ideal para quem busca leveza e estilo esportivo.', reference: 'PM-FLY-008', stars: 4.5, rating: 78 },
+  { id: 9, name: 'K-Swiss Court - Unissex', brand: 'K-Swiss', category: 'Casual', gender: 'Unissex', image: '/product-thumb-4.jpeg', price: 229.9, description: 'Design discreto, confortável e fácil de combinar.', reference: 'KS-CRT-009', stars: 4.4, rating: 52 },
+  { id: 10, name: 'Olympikus Easy - Feminino', brand: 'Olympikus', category: 'Corrida', gender: 'Feminino', image: '/product-thumb-5.jpeg', price: 199.9, priceDiscount: 159.9, description: 'Praticidade e leveza para caminhar com conforto.', reference: 'OL-EAS-010', stars: 4.6, rating: 67 },
+  { id: 11, name: 'Nike Court Legacy - Masculino', brand: 'Nike', category: 'Basquete', gender: 'Masculino', image: '/product-thumb-1.jpeg', price: 429.9, description: 'Um perfil esportivo com toque clássico.', reference: 'NK-LEG-011', stars: 4.8, rating: 91 },
+  { id: 12, name: 'Adidas Urban - Unissex', brand: 'Adidas', category: 'Casual', gender: 'Unissex', image: '/product-thumb-2.jpeg', price: 269.9, priceDiscount: 219.9, description: 'Estilo urbano e conforto para uso diário.', reference: 'AD-URB-012', stars: 4.5, rating: 55 },
+]
+
+export const getProductById = id => products.find(product => product.id === Number(id))

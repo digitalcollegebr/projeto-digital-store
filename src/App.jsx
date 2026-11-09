@@ -1,20 +1,31 @@
-import SobreProjeto from "./components/SobreProjeto.jsx"
 import Section from "./components/Section.jsx"
+import ProductCard from "./components/ProductCard.jsx"
 
 function App() {
   return (
     <main>
       <h1>Digital Store</h1>
       <p>Sejam bem-vindos à loja Digital Store</p>
-      <SobreProjeto titulo="Sobre o projeto" descricao="Projeto desenvolvido durante o curso de desenvolvimento fullstack do Geração Tech 4.0" />
 
-      <Section title="Produtos em alta">
-        <p>Aqui serão exibidos os produtos da Digital Store</p>
+      <Section
+        title="Produtos em alta"
+        titleAlign="center"
+        link={{text: "Ver todos", href: "/"}}
+      >
+          <ProductCard
+            image="product-thumb-1.jpeg"
+            name="Tênis esportivo"
+            price={199.99}
+            priceDiscount={149.99}
+          />
+
+          <ProductCard
+            image="product-thumb-1.jpeg"
+            name="Tênis esportivo"
+            price={199.99}
+          />
       </Section>
 
-      <Section title="Produtos em alta" titleAlign="center" link={{text: "Ver todos", href: "/"}}>
-        <p>Aqui serão exibidos os produtos da Digital Store</p>
-      </Section>
     </main>
   )
 }

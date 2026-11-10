@@ -4,7 +4,7 @@
 
 ```
 ├── src/
-│   ├── compoments/
+│   ├── components/
 │   │   ├── Header
 │   │   ├── Footer
 │   │   ├── Logo

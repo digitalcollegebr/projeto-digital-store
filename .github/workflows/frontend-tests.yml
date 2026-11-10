@@ -1,0 +1,31 @@
+name: Validacao do Front-end
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Instalar dependencias
+        run: npm ci
+      - name: Validar build de producao
+        run: npm run build
+      - name: Testes unitarios
+        run: npm test
+      - name: Instalar Chromium para testes E2E
+        run: npx playwright install --with-deps chromium
+      - name: Testes E2E e responsividade
+        run: npm run test:e2e
+        env:
+          CI: 'true'

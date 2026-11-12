@@ -4,6 +4,9 @@ Loja virtual **Digital Store (Drip Store)** feita em **React**, como projeto fin
 
 **Integrante:** Webster Bezerra
 
+🔗 **Projeto rodando (Vercel):** https://digital-store-opal-pi.vercel.app
+🔗 **API (back-end):** https://github.com/websterbarroso/digital-store-api
+
 ## Tecnologias
 
 - React 18 + Vite

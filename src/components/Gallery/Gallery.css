@@ -1,0 +1,143 @@
+.gallery {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery__viewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.gallery__track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.gallery__slide {
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.gallery__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  z-index: 1;
+}
+
+.gallery__arrow:hover:not(:disabled) {
+  background: var(--white);
+}
+
+/* Seta desabilitada na primeira/última imagem */
+.gallery__arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.gallery__arrow--left {
+  left: 24px;
+}
+
+.gallery__arrow--right {
+  right: 24px;
+}
+
+.gallery__dots {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.gallery__dots button {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--light-gray-2);
+  cursor: pointer;
+}
+
+.gallery__dots button.active {
+  background: var(--primary);
+}
+
+.gallery__thumbs {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+/* Miniaturas: 117x95 */
+.gallery__thumb {
+  flex: 0 0 117px;
+  width: 117px;
+  height: 95px;
+  padding: 0;
+  border: 2px solid transparent;
+  background: var(--white);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gallery__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Miniatura selecionada: borda 2px primary */
+.gallery__thumb--active {
+  border-color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .gallery__viewport {
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+  }
+
+  .gallery__arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .gallery__arrow--left {
+    left: 8px;
+  }
+
+  .gallery__arrow--right {
+    right: 8px;
+  }
+
+  .gallery__thumb {
+    flex-basis: 80px;
+    width: 80px;
+    height: 65px;
+  }
+}

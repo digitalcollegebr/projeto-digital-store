@@ -1,0 +1,671 @@
+[
+  {
+    "id": 1,
+    "name": "K-Swiss V8 - Masculino",
+    "image": "/product-thumb-1.jpeg",
+    "price": 200,
+    "category": "esporte-lazer",
+    "brand": "k-swiss",
+    "gender": "masculino",
+    "condition": "novo",
+    "reference": "Casual | K-SWISS | REF:38416711",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O K-Swiss V8 é um tênis masculino confortável para o dia a dia e para atividades leves. Tem visual esportivo e combina bem com looks casuais.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 100
+  },
+  {
+    "id": 2,
+    "name": "Tênis Nike Revolution 6 Next Nature Masculino",
+    "image": "/product-thumb-2.jpeg",
+    "price": 219,
+    "category": "corrida",
+    "brand": "nike",
+    "gender": "masculino",
+    "condition": "novo",
+    "reference": "Casual | NIKE | REF:38416718",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "Leve e macio, o Nike Revolution 6 Next Nature foi pensado para corridas leves e caminhadas, com um cabedal que deixa o pé respirar.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Air Jordan 1 Mid - Unissex",
+    "image": "/product-thumb-3.jpeg",
+    "price": 899.9,
+    "category": "casual",
+    "brand": "nike",
+    "gender": "unissex",
+    "condition": "novo",
+    "reference": "Casual | NIKE | REF:38416725",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Air Jordan 1 Mid é um ícone do basquete em versão unissex. O design clássico valoriza qualquer look casual, do jeans à calça mais estruturada.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 749.9
+  },
+  {
+    "id": 4,
+    "name": "Adidas Superstar - Feminino",
+    "image": "/product-thumb-4.jpeg",
+    "price": 499.99,
+    "category": "casual",
+    "brand": "adidas",
+    "gender": "feminino",
+    "condition": "novo",
+    "reference": "Casual | ADIDAS | REF:38416732",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Superstar feminino traz as três listras e a ponteira de borracha que todo mundo reconhece. Um clássico confortável para usar no dia a dia.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 399.99
+  },
+  {
+    "id": 5,
+    "name": "Puma Suede Classic - Unissex",
+    "image": "/product-thumb-5.jpeg",
+    "price": 349.9,
+    "category": "casual",
+    "brand": "puma",
+    "gender": "unissex",
+    "condition": "usado",
+    "reference": "Casual | PUMA | REF:38416739",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Suede Classic é um tênis casual de camurça, com visual retrô e caimento unissex. Esta unidade está em estado de usado, ainda com muito estilo.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Balenciaga Triple S - Masculino",
+    "image": "/product-thumb-1.jpeg",
+    "price": 5999,
+    "category": "utilitario",
+    "brand": "balenciaga",
+    "gender": "masculino",
+    "condition": "novo",
+    "reference": "Casual | BALENCIAGA | REF:38416746",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Triple S é um tênis utilitário de solado robusto e presença marcante. Um modelo masculino para quem quer um visual mais ousado no dia a dia.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 4799
+  },
+  {
+    "id": 7,
+    "name": "Adidas Ultraboost 22 - Masculino",
+    "image": "/product-thumb-2.jpeg",
+    "price": 999.99,
+    "category": "corrida",
+    "brand": "adidas",
+    "gender": "masculino",
+    "condition": "novo",
+    "reference": "Casual | ADIDAS | REF:38416753",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Ultraboost 22 foi feito para corrida, com o amortecimento macio da Boost e um cabedal que acompanha o movimento do pé nos treinos.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 699.99
+  },
+  {
+    "id": 8,
+    "name": "Nike Air Max 90 - Feminino",
+    "image": "/product-thumb-3.jpeg",
+    "price": 799.99,
+    "category": "esporte-lazer",
+    "brand": "nike",
+    "gender": "feminino",
+    "condition": "novo",
+    "reference": "Casual | NIKE | REF:38416760",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Air Max 90 feminino junta o visual clássico da linha com o amortecimento visível no solado. Confortável para passeios e para o lazer.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "K-Swiss Court Express - Feminino",
+    "image": "/product-thumb-4.jpeg",
+    "price": 279.9,
+    "category": "esporte-lazer",
+    "brand": "k-swiss",
+    "gender": "feminino",
+    "condition": "usado",
+    "reference": "Casual | K-SWISS | REF:38416767",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "Inspirado nas quadras, o Court Express feminino é leve e fácil de combinar no dia a dia. Esta unidade está em estado de usado.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 199.9
+  },
+  {
+    "id": 10,
+    "name": "Puma RS-X - Masculino",
+    "image": "/product-thumb-5.jpeg",
+    "price": 649.9,
+    "category": "corrida",
+    "brand": "puma",
+    "gender": "masculino",
+    "condition": "novo",
+    "reference": "Casual | PUMA | REF:38416774",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O RS-X masculino tem visual mais robusto e amortecimento generoso. Serve bem para correr ou para um look esportivo com personalidade.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Balenciaga Speed - Feminino",
+    "image": "/product-thumb-1.jpeg",
+    "price": 4299,
+    "category": "utilitario",
+    "brand": "balenciaga",
+    "gender": "feminino",
+    "condition": "usado",
+    "reference": "Casual | BALENCIAGA | REF:38416781",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Speed feminino é um tênis utilitário no estilo meia, fácil de calçar e com visual moderno. Esta unidade está em estado de usado.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Adidas Forum Low - Unissex",
+    "image": "/product-thumb-2.jpeg",
+    "price": 599.99,
+    "category": "casual",
+    "brand": "adidas",
+    "gender": "unissex",
+    "condition": "novo",
+    "reference": "Casual | ADIDAS | REF:38416788",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Forum Low retoma o estilo dos anos 80, com as tiras no tornozelo e um visual casual que serve para todos os gêneros.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 479.99
+  },
+  {
+    "id": 13,
+    "name": "Nike Pegasus 40 - Masculino",
+    "image": "/product-thumb-3.jpeg",
+    "price": 899.99,
+    "category": "corrida",
+    "brand": "nike",
+    "gender": "masculino",
+    "condition": "novo",
+    "reference": "Casual | NIKE | REF:38416795",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Pegasus 40 é um tênis de corrida equilibrado: macio na pisada e estável o suficiente para os treinos no asfalto do dia a dia.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 629.99
+  },
+  {
+    "id": 14,
+    "name": "K-Swiss Classic VN - Unissex",
+    "image": "/product-thumb-4.jpeg",
+    "price": 329.9,
+    "category": "casual",
+    "brand": "k-swiss",
+    "gender": "unissex",
+    "condition": "novo",
+    "reference": "Casual | K-SWISS | REF:38416802",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "Simples e atemporal, o Classic VN unissex funciona bem no trabalho mais informal e também nos fins de semana.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Puma Cali Dream - Feminino",
+    "image": "/product-thumb-5.jpeg",
+    "price": 499.9,
+    "category": "esporte-lazer",
+    "brand": "puma",
+    "gender": "feminino",
+    "condition": "usado",
+    "reference": "Casual | PUMA | REF:38416809",
+    "stars": 4.7,
+    "rating": 90,
+    "description": "O Cali Dream feminino tem plataforma leve e inspiração californiana, confortável para o lazer. Esta unidade está em estado de usado.",
+    "images": [
+      {
+        "src": "/produc-image-1.jpeg"
+      },
+      {
+        "src": "/produc-image-2.jpeg"
+      },
+      {
+        "src": "/produc-image-3.jpeg"
+      },
+      {
+        "src": "/produc-image-4.jpeg"
+      },
+      {
+        "src": "/produc-image-5.jpeg"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      "#6FEEFF",
+      "#FF6969",
+      "#5E5E5E",
+      "#6D70B7"
+    ],
+    "priceDiscount": 349.9
+  }
+]

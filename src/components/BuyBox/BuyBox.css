@@ -1,0 +1,119 @@
+.buy-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* name: 32px dark-gray */
+.buy-box__name {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--dark-gray);
+}
+
+/* reference: 12px dark-gray-3 */
+.buy-box__reference {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--dark-gray-3);
+}
+
+.buy-box__rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+/* stars: 14px, caixa com borda 4px, fundo warning */
+.buy-box__stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--warning);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* rating: 14px light-gray */
+.buy-box__reviews {
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+.buy-box__prices {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* price / priceDiscount: 32px dark-gray-2 */
+.buy-box__price,
+.buy-box__price-discount {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+/* price com desconto: 16px light-gray-2 riscado */
+.buy-box__price--old {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--light-gray-2);
+  text-decoration: line-through;
+}
+
+/* description: 14px dark-gray-2 */
+.buy-box__description {
+  margin-top: 20px;
+}
+
+.buy-box__description h2 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light-gray);
+}
+
+.buy-box__description p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--dark-gray-2);
+}
+
+/* COMPRAR: fundo warning, texto branco 16px */
+.buy-box__buy {
+  align-self: flex-start;
+  margin-top: 32px;
+  width: 220px;
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--warning);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.buy-box__buy:hover {
+  filter: brightness(0.92);
+}
+
+@media (max-width: 560px) {
+  .buy-box__name {
+    font-size: 24px;
+  }
+
+  .buy-box__buy {
+    width: 100%;
+  }
+}

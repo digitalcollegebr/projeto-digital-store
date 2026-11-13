@@ -1,0 +1,89 @@
+.product-card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card__image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 292 / 321;
+  background: var(--white);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.product-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.product-card a:hover .product-card__image img {
+  transform: scale(1.05);
+}
+
+.product-card__badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 6px 12px;
+  border-radius: 29px;
+  background: #e7ff86;
+  color: var(--dark-gray-2);
+  font-size: 14px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.product-card__category {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--light-gray);
+}
+
+.product-card__name {
+  margin: 6px 0 8px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--dark-gray-2);
+}
+
+.product-card__prices {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* price: dark-gray 24px */
+.product-card__price {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+/* price com desconto: light-gray riscado */
+.product-card__price--old {
+  font-weight: 400;
+  color: var(--light-gray);
+  text-decoration: line-through;
+}
+
+@media (max-width: 560px) {
+  .product-card__name {
+    font-size: 15px;
+  }
+
+  .product-card__price {
+    font-size: 18px;
+  }
+}

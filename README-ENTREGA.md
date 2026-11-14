@@ -4,12 +4,13 @@ Projeto acadêmico de Front-end da Geração Tech 4.0, desenvolvido com React, V
 
 ## Links da entrega
 
+- [Digital Store publicada na Vercel](https://digital-store-liucera.vercel.app)
 - [Repositório principal da aplicação](https://github.com/Liucera/digital-store)
 - [Código e instruções de execução neste fork](entregas/liucera/README.md)
 - [Registro de validação](entregas/liucera/docs/VALIDACAO.md)
 - [Instruções para atualizar a publicação](entregas/liucera/docs/DEPLOY.md)
 
-Foram incluídas configurações para Vercel e Netlify. O endereço definitivo depende da conexão com a hospedagem e será acrescentado após a publicação e a validação das páginas.
+O projeto está publicado na Vercel pelo endereço padrão do serviço, sem domínio personalizado. A versão atual foi enviada diretamente ao projeto na Vercel; novos commits no GitHub ainda não atualizam o site automaticamente. As configurações para Vercel e a alternativa Netlify acompanham a aplicação.
 
 ## Implementação
 
@@ -30,6 +31,7 @@ Não há consumo de API, backend ou banco de dados. Preços e avaliações são 
 
 - Instalação limpa com `npm ci` e build de produção aprovados;
 - 87 verificações originais de comportamento e layout, incluindo as três páginas principais em cinco larguras de tela;
+- 36 verificações adicionais aprovadas no site público da Vercel, em navegador isolado e sem login, sem erros de JavaScript nem arquivos faltando nos cenários testados;
 
 O registro detalhado está em [VALIDACAO.md](entregas/liucera/docs/VALIDACAO.md). O catálogo permanece com dados locais, sem integração de API externa.
 

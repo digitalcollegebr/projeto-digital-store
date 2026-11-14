@@ -1,6 +1,12 @@
 # Publicação da Digital Store
 
-O projeto está preparado para publicação na Vercel ou no Netlify. O código-fonte principal está em [Liucera/digital-store](https://github.com/Liucera/digital-store). A publicação deve usar o endereço padrão do provedor, sem domínio personalizado.
+O projeto está publicado em [digital-store-liucera.vercel.app](https://digital-store-liucera.vercel.app). O código-fonte principal está em [Liucera/digital-store](https://github.com/Liucera/digital-store). A publicação usa o endereço padrão do provedor, sem domínio personalizado.
+
+## Publicação atual
+
+A versão de produção foi criada pelo envio direto dos arquivos revisados para o projeto `digital-store-liucera` na Vercel. O serviço instalou as dependências e executou o build com Node.js 22. As rotas usam a configuração de `vercel.json`.
+
+A integração entre GitHub e Vercel ainda não está configurada. Portanto, enviar um commit ao GitHub não atualiza automaticamente este site. Para publicar alterações, envie uma nova versão para esse mesmo projeto na Vercel ou configure a importação do repositório conforme as instruções abaixo.
 
 ## Publicar na Vercel
 

@@ -48,7 +48,11 @@ Conferência realizada em **13/11/2026**, com Node.js 22.15.0, npm e Chrome. A v
 
 ### Complemento: preparação do deploy
 
-Foram aprovadas 36 verificações adicionais no build de publicação, incluindo busca com parâmetros, abertura direta e atualização dos detalhes, aliases das rotas, imagens, fonte e mensagens para endereços inválidos. Não houve erro de JavaScript nem arquivo faltando nesses cenários. Uma nova conferência no endereço definitivo deve acompanhar cada publicação.
+Foram aprovadas 36 verificações adicionais no build de publicação e repetidas as mesmas 36 no [endereço público da Vercel](https://digital-store-liucera.vercel.app), em navegador isolado e sem login. Foram conferidos busca com parâmetros, abertura direta e atualização dos detalhes, aliases das rotas, imagens, fonte e mensagens para endereços inválidos. Não houve erro de JavaScript nem arquivo faltando nesses cenários.
+
+Uma conferência independente confirmou HTTP 200 para `/`, `/products` e `/products/1`, sem redirecionamento nem login, e comparou as oito fotografias e a fonte Inter com os arquivos locais: todos os conteúdos foram idênticos.
+
+A Vercel confirmou o deploy de produção como `READY`, a partir do commit `3740f5e`. O build remoto usou Node.js 22, concluiu sem erros e gerou os mesmos arquivos JavaScript e CSS do build local validado.
 
 O Figma orienta a identidade visual, os componentes e a distribuição do conteúdo. Fotos reais, categorias e textos foram personalizados conforme solicitado. A galeria de cada produto contém somente a foto correspondente e uma miniatura dessa foto. O componente de opções mantém suporte a cores, mas o seletor não é exibido nesta entrega.
 

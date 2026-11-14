@@ -2,7 +2,7 @@
 
 Projeto acadêmico de Front-end da Geração Tech 4.0, desenvolvido com React, Vite e React Router. Inclui Home, catálogo e detalhes de produtos, com CSS próprio e recursos visuais locais.
 
-[Código-fonte](https://github.com/Liucera/digital-store)
+[Site publicado](https://digital-store-liucera.vercel.app) · [Código-fonte](https://github.com/Liucera/digital-store) · [Pull request da entrega](https://github.com/digitalcollegebr/projeto-digital-store/pull/19)
 
 ## Executar no VS Code
 
@@ -107,7 +107,11 @@ API real, deploy e pull request são opcionais no enunciado. A entrega obrigató
 
 ## Publicação
 
-O projeto está preparado para publicação na Vercel (`vercel.json`) ou no Netlify (`netlify.toml`). O processo de build e as instruções para publicar e atualizar o site estão em [docs/DEPLOY.md](docs/DEPLOY.md).
+O projeto está publicado na [Vercel](https://digital-store-liucera.vercel.app), em um endereço próprio do serviço, sem domínio personalizado. O build usa Node.js 22, `npm ci` e `npm run build`.
+
+A publicação atual foi feita por envio direto dos arquivos do projeto. Novos commits no GitHub ainda não publicam o site automaticamente. O processo de atualização e a opção de conectar o repositório estão em [docs/DEPLOY.md](docs/DEPLOY.md).
+
+As configurações de hospedagem estão em `vercel.json`. Também foi incluída a alternativa para Netlify em `netlify.toml`.
 
 ## Validação
 

@@ -1,0 +1,42 @@
+.section-container {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.section-header.center {
+  justify-content: center;
+  position: relative;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #474747; /* dark-gray-2 */
+  text-align: left;
+}
+
+.section-title.center {
+  text-align: center;
+}
+
+.section-link {
+  font-size: 18px;
+  color: #ff6200; /* primary */
+  text-decoration: none;
+}
+
+.section-link.absolute {
+  position: absolute;
+  right: 0;
+}
+
+.section-link:hover {
+  text-decoration: underline;
+}

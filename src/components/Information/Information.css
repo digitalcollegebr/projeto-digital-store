@@ -1,0 +1,26 @@
+.information__title {
+  margin: 0 0 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white, #fff);
+}
+
+.information__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.information__list a {
+  color: var(--white, #fff);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.information__list a:hover,
+.information__list a:focus-visible {
+  text-decoration: underline;
+}

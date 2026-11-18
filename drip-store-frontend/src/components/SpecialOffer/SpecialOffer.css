@@ -1,0 +1,91 @@
+.special-offer {
+  padding: 80px 0;
+  background: var(--white);
+}
+
+.special-offer__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 64px;
+}
+
+.special-offer__media {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+/* círculo em degradê atrás do produto, como no Figma */
+.special-offer__glow {
+  position: absolute;
+  width: min(420px, 90%);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(201, 32, 113, 0.25) 0%, rgba(181, 182, 242, 0.15) 100%);
+}
+
+.special-offer__media img {
+  position: relative;
+  width: min(420px, 80%);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 30px 60px rgba(31, 31, 31, 0.18);
+  transform: rotate(-8deg);
+}
+
+.special-offer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.special-offer__eyebrow {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.special-offer__title {
+  font-size: clamp(30px, 3.4vw, 48px);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--dark-gray-2);
+}
+
+.special-offer__text {
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--dark-gray-2);
+}
+
+.special-offer__cta {
+  display: inline-grid;
+  place-items: center;
+  width: 200px;
+  height: 48px;
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.special-offer__cta:hover {
+  background: var(--tertiary);
+}
+
+@media (max-width: 768px) {
+  .special-offer {
+    padding: 48px 0;
+  }
+
+  .special-offer__inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

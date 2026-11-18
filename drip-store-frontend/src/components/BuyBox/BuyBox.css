@@ -1,0 +1,118 @@
+.buybox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.buybox__name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--dark-gray);
+}
+
+.buybox__reference {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--dark-gray-3);
+}
+
+.buybox__rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.buybox__stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--warning);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ícone de estrela com preenchimento branco */
+.buybox__stars img {
+  filter: brightness(0) invert(1);
+}
+
+.buybox__reviews {
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+.buybox__prices {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.buybox__price {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+.buybox__price--old {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--light-gray-2);
+  text-decoration: line-through;
+  text-decoration-color: var(--light-gray-2);
+}
+
+.buybox__description {
+  margin-bottom: 20px;
+}
+
+.buybox__description h2 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light-gray);
+}
+
+.buybox__description p {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--dark-gray-2);
+}
+
+.buybox__buy {
+  width: 220px;
+  height: 48px;
+  margin-top: 12px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--warning);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  transition: filter 0.15s ease, transform 0.1s ease;
+}
+
+.buybox__buy:hover {
+  filter: brightness(0.95);
+}
+
+.buybox__buy:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  .buybox__name {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .buybox__buy {
+    width: 100%;
+  }
+}

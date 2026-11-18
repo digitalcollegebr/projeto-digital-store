@@ -1,0 +1,64 @@
+.category-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  list-style: none;
+}
+
+.category-icons__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--dark-gray-2);
+  text-decoration: none;
+}
+
+.category-icons__circle {
+  display: grid;
+  place-items: center;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--light-gray);
+  box-shadow: 0 6px 20px rgba(31, 31, 31, 0.06);
+  transition: color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-icons__item:hover .category-icons__circle {
+  color: var(--primary);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(201, 32, 113, 0.15);
+}
+
+.category-icons__name {
+  font-size: 14px;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+.category-icons__item:hover .category-icons__name {
+  color: var(--primary);
+}
+
+@media (max-width: 600px) {
+  .category-icons {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+
+  .category-icons__circle {
+    width: 72px;
+    height: 72px;
+  }
+
+  .category-icons__circle svg {
+    width: 34px;
+    height: 34px;
+  }
+}

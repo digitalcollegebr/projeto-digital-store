@@ -1,0 +1,171 @@
+/* Telas de login e cadastro: fundo em degradê com card branco à esquerda */
+.auth {
+  background: linear-gradient(180deg, #b5b6f2 0%, #efefff 100%);
+}
+
+.auth__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 520px) 1fr;
+  align-items: center;
+  gap: 48px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.auth__card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 32px;
+  border-radius: 4px;
+  background: var(--white);
+  box-shadow: 0 20px 40px rgba(71, 71, 71, 0.08);
+}
+
+.auth__card h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+.auth__switch {
+  font-size: 14px;
+  color: var(--dark-gray-2);
+}
+
+.auth__switch a {
+  color: var(--dark-gray-2);
+  font-weight: 700;
+}
+
+.auth__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.auth__field {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+.auth__field input {
+  width: 100%;
+  min-width: 0;
+  height: 60px;
+  padding: 0 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: rgba(71, 71, 71, 0.04);
+  color: var(--dark-gray-2);
+  font-size: 16px;
+  font-weight: 400;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.auth__field input:focus {
+  outline: none;
+  border-color: var(--primary);
+  background: var(--white);
+}
+
+.auth__error {
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: rgba(238, 66, 102, 0.1);
+  color: var(--error);
+  font-size: 14px;
+}
+
+.auth__error ul {
+  margin: 6px 0 0 18px;
+}
+
+.auth__submit {
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.auth__submit:hover:not(:disabled) {
+  background: var(--tertiary);
+}
+
+.auth__submit:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.auth__hint {
+  font-size: 13px;
+  color: var(--dark-gray-3);
+  text-align: center;
+}
+
+.auth__hint code {
+  font-family: inherit;
+  font-weight: 700;
+}
+
+/* tênis "flutuando" à direita */
+.auth__art {
+  position: relative;
+  height: 480px;
+}
+
+.auth__shoe {
+  position: absolute;
+  width: 62%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 30px 60px rgba(31, 31, 31, 0.2);
+}
+
+.auth__shoe--back {
+  top: 0;
+  right: 4%;
+  transform: rotate(10deg);
+}
+
+.auth__shoe--front {
+  bottom: 0;
+  left: 6%;
+  transform: rotate(-8deg);
+}
+
+@media (max-width: 900px) {
+  .auth__inner {
+    grid-template-columns: 1fr;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .auth__art {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .auth__card {
+    padding: 24px 16px;
+  }
+
+  .auth__card h1 {
+    font-size: 24px;
+  }
+
+  .auth__row {
+    grid-template-columns: 1fr;
+  }
+}

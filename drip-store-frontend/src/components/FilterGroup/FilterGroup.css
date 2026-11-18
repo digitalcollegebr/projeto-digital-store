@@ -1,0 +1,30 @@
+.filter-group {
+  border: 0;
+  margin-bottom: 20px;
+}
+
+.filter-group__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+.filter-group__option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0;
+  font-size: 14px;
+  color: var(--dark-gray-2);
+  cursor: pointer;
+}
+
+/* inputs 22x22 preenchidos com a cor primary */
+.filter-group__option input {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
